@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github Pages on Блог Красной Панды</title>
+    <link>http://iuadget.github.com/tags/github-pages/</link>
+    <description>Recent content in Github Pages on Блог Красной Панды</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    <copyright>All rights reserved - 2016</copyright>
+    <lastBuildDate>Sat, 05 Mar 2016 18:27:28 +0300</lastBuildDate>
+    <atom:link href="http://iuadget.github.com/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Создаем Блог на Hugo</title>
+      <link>http://iuadget.github.com/post-title/</link>
+      <pubDate>Sat, 05 Mar 2016 18:27:28 +0300</pubDate>
+      
+      <guid>http://iuadget.github.com/post-title/</guid>
+      <description>&lt;p&gt;Решил сгенерировать сайт с помошью Hugo&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Создаем блог</title>
+      <link>http://iuadget.github.com/post-title/</link>
+      <pubDate>Sat, 05 Mar 2016 11:42:25 +0300</pubDate>
+      
+      <guid>http://iuadget.github.com/post-title/</guid>
+      <description>&lt;p&gt;После прочтения статьи: &lt;a href=&#34;http://frontender.info/build-blog-jekyll-github-pages/&#34;&gt;Создаем блог используя Jekyll и GitHub Pages&lt;/a&gt; решил создать свой блог, посмотрим что выйдет из этого эксперемента.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

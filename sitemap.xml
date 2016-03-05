@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://iuadget.github.com/</loc>
+    <lastmod>2016-03-05T18:34:25+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iuadget.github.com/about/</loc>
+    <lastmod>2016-03-05T18:34:25+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iuadget.github.com/post-title/</loc>
+    <lastmod>2016-03-05T18:27:28+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iuadget.github.com/post-title/</loc>
+    <lastmod>2016-03-05T11:42:25+03:00</lastmod>
+  </url>
+  
+</urlset>
