@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jekyll on Блог Красной Панды</title>
+    <link>http://iuadget.github.io/tags/jekyll/</link>
+    <description>Recent content in Jekyll on Блог Красной Панды</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-RU</language>
+    <copyright>All rights reserved - 2016</copyright>
+    <lastBuildDate>Sat, 05 Mar 2016 11:42:25 +0300</lastBuildDate>
+    <atom:link href="http://iuadget.github.io/tags/jekyll/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Создание блога</title>
+      <link>http://iuadget.github.io/%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B1%D0%BB%D0%BE%D0%B3%D0%B0/</link>
+      <pubDate>Sat, 05 Mar 2016 11:42:25 +0300</pubDate>
+      
+      <guid>http://iuadget.github.io/%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B1%D0%BB%D0%BE%D0%B3%D0%B0/</guid>
+      <description>&lt;p&gt;После прочтения статьи: &lt;a href=&#34;http://frontender.info/build-blog-jekyll-github-pages/&#34;&gt;Создаем блог используя Jekyll и GitHub Pages&lt;/a&gt; решил создать свой блог, посмотрим что выйдет из этого эксперемента.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
