@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Блог Красной Панды</title>
+    <link>http://iuadget.github.com/post/</link>
+    <description>Recent content in Posts on Блог Красной Панды</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-RU</language>
+    <lastBuildDate>Sun, 06 Mar 2016 10:11:28 +0300</lastBuildDate>
+    <atom:link href="http://iuadget.github.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Перешел на HUGO</title>
+      <link>http://iuadget.github.com/post/2016-03-06_create-hugo/</link>
+      <pubDate>Sun, 06 Mar 2016 10:11:28 +0300</pubDate>
+      
+      <guid>http://iuadget.github.com/post/2016-03-06_create-hugo/</guid>
+      <description>&lt;p&gt;Предыдущий сгененрированый блог на &lt;strong&gt;Jekyll&lt;/strong&gt; не удовлетворил каким-то внутренним представлениям, поэтому я решил посмотреть какие генераторы статических сайтов еще есть.
+В поисках &lt;del&gt;идеального&lt;/del&gt; генератора статических сайта (для себя) попробовал:
+Jekyll - Результат можно увидеть &lt;a href=&#34;http://iuadget.github.io/iuadget-blog/&#34;&gt;здесь&lt;/a&gt;.
+Hugo - Результатом является данный сгенерированный блог.&lt;/p&gt;
+
+&lt;p&gt;Для &lt;strong&gt;Jekyll&lt;/strong&gt; на просторах интернета можно найти и статьи, видео на русском языке, в отличие от &lt;strong&gt;Hugo&lt;/strong&gt;.
+Наверное это и заставило меня остановиться на &lt;strong&gt;Hugo&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Создание блога</title>
+      <link>http://iuadget.github.com/post/2016-03-05_create-blog/</link>
+      <pubDate>Sat, 05 Mar 2016 11:42:25 +0300</pubDate>
+      
+      <guid>http://iuadget.github.com/post/2016-03-05_create-blog/</guid>
+      <description>&lt;p&gt;После прочтения статьи: &lt;a href=&#34;http://frontender.info/build-blog-jekyll-github-pages/&#34;&gt;Создаем блог используя Jekyll и GitHub Pages&lt;/a&gt; решил создать свой блог, посмотрим что выйдет из этого эксперемента.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
