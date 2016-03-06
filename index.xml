@@ -15,10 +15,13 @@
       <pubDate>Sun, 06 Mar 2016 10:11:28 +0300</pubDate>
       
       <guid>http://iuadget.github.com/post/2016-03-06_create-hugo/</guid>
-      <description>&lt;p&gt;Предыдущий сгененрированый блог на &lt;strong&gt;Jekyll&lt;/strong&gt; не удовлетворил каким-то внутренним представлениям, поэтому я решил посмотреть какие генераторы статических сайтов еще есть.
-В поисках &lt;del&gt;идеального&lt;/del&gt; генератора статических сайта (для себя) попробовал:
-Jekyll - Результат можно увидеть &lt;a href=&#34;http://iuadget.github.io/iuadget-blog/&#34;&gt;здесь&lt;/a&gt;.
-Hugo - Результатом является данный сгенерированный блог.&lt;/p&gt;
+      <description>&lt;p&gt;Предыдущий сгененрированый блог на &lt;strong&gt;Jekyll&lt;/strong&gt; не удовлетворил каким-то внутренним представлениям, поэтому я решил посмотреть какие генераторы статических сайтов еще есть.&lt;/p&gt;
+
+&lt;p&gt;В поисках &lt;del&gt;идеального&lt;/del&gt; генератора статических сайта (для себя) попробовал:&lt;/p&gt;
+
+&lt;p&gt;Jekyll - Результат можно увидеть &lt;a href=&#34;http://iuadget.github.io/iuadget-blog/&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hugo - Результатом является данный сгенерированный блог.&lt;/p&gt;
 
 &lt;p&gt;Для &lt;strong&gt;Jekyll&lt;/strong&gt; на просторах интернета можно найти и статьи, видео на русском языке, в отличие от &lt;strong&gt;Hugo&lt;/strong&gt;.
 Наверное это и заставило меня остановиться на &lt;strong&gt;Hugo&lt;/strong&gt;.&lt;/p&gt;
