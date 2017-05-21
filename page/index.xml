@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on ВБ</title>
+    <link>http://iuadget.github.io/page/</link>
+    <description>Recent content in Pages on ВБ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</managingEditor>
+    <webMaster>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</webMaster>
+    
+	<atom:link href="http://iuadget.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Обо мне</title>
+      <link>http://iuadget.github.io/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</author>
+      <guid>http://iuadget.github.io/page/about/</guid>
+      <description>Привет!
+Меня зовут Βίκτωρ Μπογκντάνοφ.
+Здесь я пишу об интересующих меня вещах и временами — просто о жизни.
+Вы можете следить за обновлениями этого блога с помощью RSS.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,27 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on ВБ</title>
-    <link>http://iuadget.github.io/post/</link>
-    <description>Recent content in Posts on ВБ</description>
+    <title>Блог on ВБ</title>
+    <link>http://iuadget.github.io/tags/%D0%B1%D0%BB%D0%BE%D0%B3/</link>
+    <description>Recent content in Блог on ВБ</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</managingEditor>
     <webMaster>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</webMaster>
-    <lastBuildDate>Sun, 13 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Mar 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://iuadget.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://iuadget.github.io/tags/%D0%B1%D0%BB%D0%BE%D0%B3/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Как мы готовили 8 марта</title>
-      <link>http://iuadget.github.io/post/as-we-were-preparing-the-march-8/</link>
-      <pubDate>Sun, 13 Mar 2016 00:00:00 +0000</pubDate>
-      <author>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</author>
-      <guid>http://iuadget.github.io/post/as-we-were-preparing-the-march-8/</guid>
-      <description>В этом году подготовку к 8 Марта на работе начинали с середины января… Но подготовительные мероприятия делали за неделю до начала праздника. Сначала определились с форматом. Как и в прошлом году предложили девушкам квест. Первоначально темой выбрали Таинственный остров Жюль Верна, но в результате обсуждения остановились на Острове Сокровищ Роберта Стивенсона.
- По мотивам книги Роберта Стивенсона снят советский мультипликационно-игровой фильм.
- Цель квеста - поиск сокровищ. На пути к сокровищу девушкам надо пройти 5 заданий.</description>
-    </item>
     
     <item>
       <title>Перешел на HUGO</title>
