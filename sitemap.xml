@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://iuadget.github.io/post/generation-site-hugo/</loc>
+    <lastmod>2017-05-28T00:00:00+00:00</lastmod>
+  </url>
   
   <url>
     <loc>http://iuadget.github.io/post/as-we-were-preparing-the-march-8/</loc>
@@ -29,7 +35,7 @@
   
   <url>
     <loc>http://iuadget.github.io/tags/hugo/</loc>
-    <lastmod>2016-03-06T00:00:00+00:00</lastmod>
+    <lastmod>2017-05-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -46,7 +52,7 @@
   
   <url>
     <loc>http://iuadget.github.io/post/</loc>
-    <lastmod>2016-03-13T00:00:00+00:00</lastmod>
+    <lastmod>2017-05-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -58,13 +64,13 @@
   
   <url>
     <loc>http://iuadget.github.io/tags/%D0%B1%D0%BB%D0%BE%D0%B3/</loc>
-    <lastmod>2016-03-06T00:00:00+00:00</lastmod>
+    <lastmod>2017-05-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://iuadget.github.io/</loc>
-    <lastmod>2016-03-13T00:00:00+00:00</lastmod>
+    <lastmod>2017-05-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

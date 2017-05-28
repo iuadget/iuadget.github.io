@@ -7,10 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</managingEditor>
     <webMaster>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</webMaster>
-    <lastBuildDate>Sun, 06 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 May 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://iuadget.github.io/tags/%D0%B1%D0%BB%D0%BE%D0%B3/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Генерация сайта на HUGO</title>
+      <link>http://iuadget.github.io/post/generation-site-hugo/</link>
+      <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
+      <author>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</author>
+      <guid>http://iuadget.github.io/post/generation-site-hugo/</guid>
+      <description>За прошедший год идей для статей было много, но ни одна из них не превратился в статью.
+За это время была переустановлена система и все исходники блога были удалены, осталось только сгенерированная статика.
+Чтоб не забыть, небольшие заметки:
+1) Установить Hugo.
+Для этого воспользуемся Homebrew.
+Пишем следующую команду в терминале:
+/usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;  После успешной инсталляции приступаем к установке Hugo, для этого в терминале пишем:
+brew install hugo  Hugo установлен.</description>
+    </item>
     
     <item>
       <title>Перешел на HUGO</title>

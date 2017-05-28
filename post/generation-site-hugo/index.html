@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Генерация сайта на HUGO</title>
+  <meta property="og:title" content="Генерация сайта на HUGO" />
+  <meta name="twitter:title" content="Генерация сайта на HUGO" />
+  <meta name="description" content="За прошедший год идей для статей было много, но ни одна из них не превратился в статью.
+За это время была переустановлена система и все исходники блога были удалены, осталось только сгенерированная статика.
+Чтоб не забыть, небольшие заметки:
+1) Установить Hugo.
+Для этого воспользуемся Homebrew.
+Пишем следующую команду в терминале:
+/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;  После успешной инсталляции приступаем к установке Hugo, для этого в терминале пишем:
+brew install hugo  Hugo установлен.">
+  <meta property="og:description" content="За прошедший год идей для статей было много, но ни одна из них не превратился в статью.
+За это время была переустановлена система и все исходники блога были удалены, осталось только сгенерированная статика.
+Чтоб не забыть, небольшие заметки:
+1) Установить Hugo.
+Для этого воспользуемся Homebrew.
+Пишем следующую команду в терминале:
+/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;  После успешной инсталляции приступаем к установке Hugo, для этого в терминале пишем:
+brew install hugo  Hugo установлен.">
+  <meta name="twitter:description" content="За прошедший год идей для статей было много, но ни одна из них не превратился в статью.
+За это время была переустановлена система и все исходники блога были удалены, осталось только сгенерированная …">
+  <meta name="author" content="Βίκτωρ Μπογκντάνοφ"/>
+  <link href='http://iuadget.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="http://iuadget.github.io/img/avatar-icon.png" />
+  <meta name="twitter:image" content="http://iuadget.github.io/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@iuadget" />
+  <meta name="twitter:creator" content="@iuadget" />
+  <meta property="og:url" content="http://iuadget.github.io/post/generation-site-hugo/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="ВБ" />
+
+  <meta name="generator" content="Hugo 0.21" />
+  <link rel="canonical" href="http://iuadget.github.io/post/generation-site-hugo/" />
+  <link rel="alternate" href="http://iuadget.github.io/index.xml" type="application/rss+xml" title="ВБ">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="http://iuadget.github.io/css/main.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="http://iuadget.github.io/css/pygment_highlights.css" />
+  <link rel="stylesheet" href="http://iuadget.github.io/css/highlight.min.css" />
+
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-73438211-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+</head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Навигация</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://iuadget.github.io/">ВБ</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Блог" href="/">Блог</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Обо мне" href="/page/about/">Обо мне</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Тэги" href="/tags">Тэги</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+          <a title="ВБ" href="http://iuadget.github.io/">
+            <img class="avatar-img" src="http://iuadget.github.io/img/avatar-icon.png" alt="ВБ" />
+          </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
+    
+  
+  
+  
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              <h1>Генерация сайта на HUGO</h1>
+                
+                
+                  <span class="post-meta">
+  Опубликовано 28 May, 2017
+  
+</span>
+
+
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>За прошедший год идей для статей было много, но ни одна из них не превратился в статью.<br />
+За это время была переустановлена система и все исходники блога были удалены, осталось только сгенерированная статика.<br />
+Чтоб не забыть, небольшие заметки:</p>
+
+<p>1) Установить <strong>Hugo</strong>.<br />
+Для этого воспользуемся <a href="https://brew.sh/index_ru.html">Homebrew</a>.<br />
+Пишем следующую команду в терминале:</p>
+
+<pre><code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+</code></pre>
+
+<p>После успешной инсталляции приступаем к установке <strong>Hugo</strong>, для этого в терминале пишем:</p>
+
+<pre><code>brew install hugo
+</code></pre>
+
+<p><em>Hugo</em> установлен.</p>
+
+<p>2) Создать сайт.<br />
+Воспользуемся статьей <a href="https://gohugo.io/overview/quickstart/">Hugo - Hugo Quickstart Guide</a><br />
+2.1) Создаем новый сайт. В терминале пишем следующую строку:</p>
+
+<pre><code>hugo new site best-site
+</code></pre>
+
+<p>Сайт успешно создан.
+<img src="/images/2017/generation-site/generaton-site.png" alt="Результат создание сайта" /><br />
+2.2) Выбираем тему.<br />
+Для созданных сайтов, каталог с темами пустой, поэтому придется выбрать и установить тему сайта. Все темы располагаются в каталоге <em>themes</em>. Перейдем в каталог с темами:</p>
+
+<pre><code>cd themes
+</code></pre>
+
+<p>Клонируем тему в каталог.</p>
+
+<pre><code>git clone https://github.com/dim0627/hugo_theme_robust.git
+</code></pre>
+
+<p>Тема успешно клонирована.<br />
+<img src="/images/2017/generation-site/clone-theme.png" alt="Результат клонирования темы" /><br />
+Большой выбор тем для сайта доступен в <a href="http://themes.gohugo.io">Каталоге тем для Hugo</a></p>
+
+<p>2.3) Настраиваем конфигурационный файл.<br />
+В корне нашего сайта лежит конфигурационный файл <em>config.toml</em>.  По умолчанию файл конфигурации использует Формат <strong>TOML</strong>, но также можно использовать формат <strong>YAML</strong> или <strong>JSON</strong>. Параметры конфигурации, указанные в <em>config.toml</em> применяются к полной версии сайта.</p>
+
+<pre><code>name = &quot;Robust&quot;
+license = &quot;MIT&quot;
+licenselink = &quot;https://github.com/dim0627/hugo_theme_robust/blob/master/LICENSE.md&quot;
+description = &quot;Grid based theme for Hugo.&quot;
+homepage = &quot;https://github.com/dim0627/hugo_theme_robust&quot;
+tags = [&quot;blog&quot;]
+features = [&quot;responsive&quot;, &quot;thumbnail&quot;, &quot;grid&quot;, &quot;syntax highlight&quot;, &quot;structured data&quot;, &quot;ogp&quot;, &quot;twitter cards&quot;]
+min_version = 0.20.2
+
+[author]
+  name = &quot;Daisuke Tsuji&quot;
+  homepage = &quot;https://yet.unresolved.xyz/&quot;
+</code></pre>
+
+<p>Добавим следующую информацию:</p>
+
+<pre><code>baseURL = &quot;http://наш-сайт.рф/&quot;
+languageCode = &quot;ru-RU&quot;
+title = &quot;The Best Site&quot;
+
+[Params]
+  Author = &quot;Самый лучший писатель&quot;
+</code></pre>
+
+<p>2.4) Создаем статью.<br />
+Для того чтобы создать новую статью, напишем следующее:</p>
+
+<pre><code>hugo new post/good-to-great.md
+</code></pre>
+
+<p>В результате в каталоге <em>content</em> должен появиться файл в формате <strong>Markdown</strong>:</p>
+
+<pre><code>content
+`-- post
+    `-- good-to-great.md
+</code></pre>
+
+<p>В любом удобном редакторе начинаем писать статью.<br />
+Для проверки отображения сайта и публикуемой статьи запустим сервер:</p>
+
+<pre><code>hugo server --theme=hugo_theme_robust --buildDrafts
+</code></pre>
+
+<p>Чтобы просмотреть что получилось, переходим по адресу <a href="http://localhost:1313/">http://localhost:1313/</a>.</p>
+
+<p>2.5) Генерация статичного сайта для публикации.<br />
+Когда все написано и проверено необходимо сгенерировать сайт, для этого пишем:</p>
+
+<pre><code>hugo --theme=hugo_theme_robust
+</code></pre>
+
+<p>После выполнения команды в корне сайта будет создан каталог <em>public</em>, содержащий сгенерированный исходный сайт.</p>
+
+<p>3) Размешаем сайт.<br />
+Хостим полученный сайт, например на <a href="https://pages.github.com/">Github Pages</a>.</p>
+
+      </article>
+
+      <ul class="pager blog-pager">
+        
+          <li class="previous">
+            <a href="http://iuadget.github.io/post/as-we-were-preparing-the-march-8/" data-toggle="tooltip" data-placement="top" title="Как мы готовили 8 марта">&larr; Предыдущий</a>
+          </li>
+        
+        
+      </ul>
+
+      
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:iuadget@outlook.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/iuadget" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/iuadget" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="http://iuadget.github.io/index.xml" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          Βίκτωρ Μπογκντάνοφ
+          &nbsp;&bull;&nbsp;
+          2017
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="http://iuadget.github.io/">ВБ</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          На базе <a href="http://gohugo.io">Hugo v0.21</a> &nbsp;&bull;&nbsp; Тема <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> на базе <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="http://iuadget.github.io/js/main.js"></script>
+<script src="http://iuadget.github.io/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> renderMathInElement(document.body); </script>
+
+
+
+
+
+
+  </body>
+</html>
+
