@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://iuadget.github.io/post/course-shnat-1/</loc>
+    <lastmod>2017-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://iuadget.github.io/post/cinema-spider-man-homecoming/</loc>
+    <lastmod>2017-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iuadget.github.io/post/generation-site-hugo/</loc>
     <lastmod>2017-05-28T00:00:00+00:00</lastmod>
   </url>
@@ -34,6 +44,12 @@
   </url>
   
   <url>
+    <loc>http://iuadget.github.io/tags/cinema/</loc>
+    <lastmod>2017-07-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://iuadget.github.io/tags/hugo/</loc>
     <lastmod>2017-05-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -52,7 +68,13 @@
   
   <url>
     <loc>http://iuadget.github.io/post/</loc>
-    <lastmod>2017-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iuadget.github.io/tags/qa/</loc>
+    <lastmod>2017-07-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -70,7 +92,7 @@
   
   <url>
     <loc>http://iuadget.github.io/</loc>
-    <lastmod>2017-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

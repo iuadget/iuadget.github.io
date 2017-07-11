@@ -7,10 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</managingEditor>
     <webMaster>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</webMaster>
-    <lastBuildDate>Sun, 28 May 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://iuadget.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ретроспектива курса &#34;Школа для начинающих тестировщиков&#34;</title>
+      <link>http://iuadget.github.io/post/course-shnat-1/</link>
+      <pubDate>Tue, 11 Jul 2017 00:00:00 +0000</pubDate>
+      <author>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</author>
+      <guid>http://iuadget.github.io/post/course-shnat-1/</guid>
+      <description>На одном из заданий курса &amp;ldquo;Школа для начинающих тестировщиков&amp;rdquo; необходимо было провести ретроспективу обучения. Поэтому, вместо отзыва или обзора проведу ретроспективу.
+Плюсы: 1) Подача материала. Теоретический материал гармонично дополняют практические занятия.
+2) Преподаватели. Подскажут и покажут куда двигаться дальше.
+3) Групповые занятия (советую проходить курс в группе).
+Минусы: 1) При проверке задания разными преподавателями предъявляются разные требования.
+Улучшения: 1) Улучшить качество звука в видеоматериалах (слышен шум на заднем фоне).</description>
+    </item>
+    
+    <item>
+      <title>Дружелюбный сосед</title>
+      <link>http://iuadget.github.io/post/cinema-spider-man-homecoming/</link>
+      <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
+      <author>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</author>
+      <guid>http://iuadget.github.io/post/cinema-spider-man-homecoming/</guid>
+      <description>Очередной перезапуск «Человека-паука» удался.
+Что понравилось: 1) Главный герой - «дружелюбный сосед», собирающий с другом «Звезду смерти» из ЛЕГО.
+2) Акцент в фильме сделан на школьной жизни Паркера.
+3) Сценаристы не стали пересказывать историю становления Человека-Паука, которую мы и так все знаем.
+Это тётя Мэй.
+4) Антагонист - харизматичный злодей, который не одержим уничтожением мира, а занимается торговлей оружием пришельцев, стараясь не привлекать к себе внимания.
+Итого: «Человек-паук: Возвращение домой» получился лёгким, спокойным и смешным.</description>
+    </item>
     
     <item>
       <title>Генерация сайта на HUGO</title>
