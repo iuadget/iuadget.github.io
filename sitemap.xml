@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://iuadget.github.io/post/ios11-beta-bugs/</loc>
+    <lastmod>2017-07-18T06:39:58+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iuadget.github.io/post/course-shnat-1/</loc>
     <lastmod>2017-07-11T00:00:00+00:00</lastmod>
   </url>
@@ -56,6 +61,12 @@
   </url>
   
   <url>
+    <loc>http://iuadget.github.io/tags/ios11beta/</loc>
+    <lastmod>2017-07-18T06:39:58+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://iuadget.github.io/tags/jekyll/</loc>
     <lastmod>2016-03-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -68,7 +79,7 @@
   
   <url>
     <loc>http://iuadget.github.io/post/</loc>
-    <lastmod>2017-07-11T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-18T06:39:58+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -92,7 +103,7 @@
   
   <url>
     <loc>http://iuadget.github.io/</loc>
-    <lastmod>2017-07-11T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-18T06:39:58+03:00</lastmod>
     <priority>0</priority>
   </url>
   
