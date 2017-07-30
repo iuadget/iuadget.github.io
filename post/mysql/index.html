@@ -5,15 +5,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Баги  iOS11 beta</title>
-  <meta property="og:title" content="Баги  iOS11 beta" />
-  <meta name="twitter:title" content="Баги  iOS11 beta" />
-  <meta name="description" content="За два дня работы на iOS11 beta было найдено пару багов:
-1. Анимация при выполнения стандартных действий:       2. Невозможно переместить приложение из папки   3. Артефакты анимации приложений при изменении/переименовании папки   4. Локализация в AppStore 5. Перекрытие кнопкой иконки приложения Все найденные баги были отправлены в Apple.">
-  <meta property="og:description" content="За два дня работы на iOS11 beta было найдено пару багов:
-1. Анимация при выполнения стандартных действий:       2. Невозможно переместить приложение из папки   3. Артефакты анимации приложений при изменении/переименовании папки   4. Локализация в AppStore 5. Перекрытие кнопкой иконки приложения Все найденные баги были отправлены в Apple.">
-  <meta name="twitter:description" content="За два дня работы на iOS11 beta было найдено пару багов:
-1. Анимация при выполнения стандартных действий:       2. Невозможно переместить приложение из папки   3. Артефакты анимации приложений при …">
+  <title>Mysql сервер</title>
+  <meta property="og:title" content="Mysql сервер" />
+  <meta name="twitter:title" content="Mysql сервер" />
+  <meta name="description" content="1. Смена пароля Поставил на macOS Sierra MySQL сервер. При установке MySQL выдал временный пароль:
+В новой версии MySQL временные пароль стали иметь срок действия. При установке MySQL генерирует временный пароль, но срок его действия сразу кончается. И при первом подключении к MySQL выдается следующая ошибка:
+ERROR 1862 (HY000): Your password has expired. To log in you must change it using a client that supports expired passwords.  Для изменения пароля необходимо в терминале ввести:">
+  <meta property="og:description" content="1. Смена пароля Поставил на macOS Sierra MySQL сервер. При установке MySQL выдал временный пароль:
+В новой версии MySQL временные пароль стали иметь срок действия. При установке MySQL генерирует временный пароль, но срок его действия сразу кончается. И при первом подключении к MySQL выдается следующая ошибка:
+ERROR 1862 (HY000): Your password has expired. To log in you must change it using a client that supports expired passwords.  Для изменения пароля необходимо в терминале ввести:">
+  <meta name="twitter:description" content="1. Смена пароля Поставил на macOS Sierra MySQL сервер. При установке MySQL выдал временный пароль:
+В новой версии MySQL временные пароль стали иметь срок действия. При установке MySQL генерирует …">
   <meta name="author" content="Βίκτωρ Μπογκντάνοφ"/>
   <link href='http://iuadget.github.io/images/favicon.ico' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="http://iuadget.github.io/images/avatar-icon.png" />
@@ -21,12 +23,12 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@iuadget" />
   <meta name="twitter:creator" content="@iuadget" />
-  <meta property="og:url" content="http://iuadget.github.io/post/ios11-beta-bugs/" />
+  <meta property="og:url" content="http://iuadget.github.io/post/mysql/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="ВБ" />
 
   <meta name="generator" content="Hugo 0.25.1" />
-  <link rel="canonical" href="http://iuadget.github.io/post/ios11-beta-bugs/" />
+  <link rel="canonical" href="http://iuadget.github.io/post/mysql/" />
   <link rel="alternate" href="http://iuadget.github.io/index.xml" type="application/rss+xml" title="ВБ">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -173,11 +175,11 @@ ga('send', 'pageview');
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="post-heading">
-              <h1>Баги  iOS11 beta</h1>
+              <h1>Mysql сервер</h1>
                 
                 
                   <span class="post-meta">
-  Опубликовано 18 July, 2017
+  Опубликовано 30 July, 2017
   
 </span>
 
@@ -198,67 +200,47 @@ ga('send', 'pageview');
       <article role="main" class="blog-post">
         
 
-<p>За два дня работы на iOS11 beta было найдено пару багов:</p>
+<h4 id="1-смена-пароля">1. Смена пароля</h4>
 
-<h4 id="1-анимация-при-выполнения-стандартных-действий">1. Анимация при выполнения стандартных действий:</h4>
+<p>Поставил на macOS Sierra MySQL сервер. При установке MySQL выдал временный пароль:</p>
 
+<p><img src="/images/2017/mysql/temp_password.jpg" alt="Временный пароль" /></p>
 
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/h1cmCYWS6qE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
- </div>
+<p><em>В новой версии MySQL временные пароль стали иметь срок действия.</em> При установке MySQL генерирует временный пароль, но срок его действия сразу кончается. И при первом подключении к MySQL выдается следующая ошибка:</p>
 
+<pre><code>ERROR 1862 (HY000): Your password has expired. To log in you must change it using a client that supports expired passwords.
+</code></pre>
 
+<p>Для изменения пароля необходимо в терминале ввести:</p>
 
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/_nYuPTO6ZhM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
- </div>
+<pre><code>/usr/local/mysql/bin/mysqladmin -u root -p'temppassword' password 'newpassword'
+</code></pre>
 
+<h4 id="2-удаление-mysql">2. Удаление MySQL</h4>
 
+<p>Для удаления MySQL сервера необходимо:</p>
 
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/xe8gvbEQtQE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
- </div>
+<p>1) остановить MySQL сервер;</p>
 
+<p>2) в терминале ввести следующие команды:</p>
 
-<h4 id="2-невозможно-переместить-приложение-из-папки">2. Невозможно переместить приложение из папки</h4>
-
-
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/M78po7hkxa4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
- </div>
-
-
-<h4 id="3-артефакты-анимации-приложений-при-изменении-переименовании-папки">3. Артефакты анимации приложений при изменении/переименовании папки</h4>
-
-
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/-i1KJnuFtYg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
- </div>
-
-
-<h4 id="4-локализация-в-appstore">4. Локализация в AppStore</h4>
-
-<p><img src="/images/2017/ios11-beta-bugs/IMG_1119.png" alt="Локализация в AppStore" /></p>
-
-<h4 id="5-перекрытие-кнопкой-иконки-приложения">5. Перекрытие кнопкой иконки приложения</h4>
-
-<p><img src="/images/2017/ios11-beta-bugs/IMG_1124.png" alt="Перекрытие кнопкой иконки приложения 1" /><br />
-<img src="/images/2017/ios11-beta-bugs/IMG_1125.png" alt="Перекрытие кнопкой иконки приложения 2" /></p>
-
-<p>Все найденные баги были отправлены в Apple.</p>
+<pre><code>sudo rm /usr/local/mysql
+sudo rm -rf /usr/local/mysql*
+sudo rm -rf /Library/StartupItems/MySQLCOM
+sudo rm -rf /Library/PreferencePanes/My*
+sudo rm -rf /Library/Receipts/mysql*
+sudo rm -rf /Library/Receipts/MySQL*
+sudo rm -rf /private/var/db/receipts/*mysql*
+</code></pre>
 
       </article>
 
       <ul class="pager blog-pager">
         
           <li class="previous">
-            <a href="http://iuadget.github.io/post/course-shnat-1/" data-toggle="tooltip" data-placement="top" title="Отзыв на курс &#34;Школа для начинающих тестировщиков&#34;">&larr; Предыдущий</a>
+            <a href="http://iuadget.github.io/post/ios11-beta-bugs/" data-toggle="tooltip" data-placement="top" title="Баги  iOS11 beta">&larr; Предыдущий</a>
           </li>
         
-        
-          <li class="next">
-            <a href="http://iuadget.github.io/post/mysql/" data-toggle="tooltip" data-placement="top" title="Mysql сервер">Следующий &rarr;</a>
-          </li>
         
       </ul>
 

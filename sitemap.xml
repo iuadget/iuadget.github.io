@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://iuadget.github.io/post/mysql/</loc>
+    <lastmod>2017-07-30T08:22:01+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iuadget.github.io/post/ios11-beta-bugs/</loc>
     <lastmod>2017-07-18T06:39:58+03:00</lastmod>
   </url>
@@ -73,13 +78,25 @@
   </url>
   
   <url>
+    <loc>http://iuadget.github.io/tags/macos/</loc>
+    <lastmod>2017-07-30T08:22:01+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://iuadget.github.io/tags/mysql/</loc>
+    <lastmod>2017-07-30T08:22:01+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://iuadget.github.io/page/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://iuadget.github.io/post/</loc>
-    <lastmod>2017-07-18T06:39:58+03:00</lastmod>
+    <lastmod>2017-07-30T08:22:01+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -103,7 +120,7 @@
   
   <url>
     <loc>http://iuadget.github.io/</loc>
-    <lastmod>2017-07-18T06:39:58+03:00</lastmod>
+    <lastmod>2017-07-30T08:22:01+03:00</lastmod>
     <priority>0</priority>
   </url>
   

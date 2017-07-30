@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mysql on ВБ</title>
+    <link>http://iuadget.github.io/tags/mysql/</link>
+    <description>Recent content in Mysql on ВБ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</managingEditor>
+    <webMaster>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</webMaster>
+    <lastBuildDate>Sun, 30 Jul 2017 08:22:01 +0300</lastBuildDate>
+    
+	<atom:link href="http://iuadget.github.io/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mysql сервер</title>
+      <link>http://iuadget.github.io/post/mysql/</link>
+      <pubDate>Sun, 30 Jul 2017 08:22:01 +0300</pubDate>
+      <author>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</author>
+      <guid>http://iuadget.github.io/post/mysql/</guid>
+      <description>1. Смена пароля Поставил на macOS Sierra MySQL сервер. При установке MySQL выдал временный пароль:
+В новой версии MySQL временные пароль стали иметь срок действия. При установке MySQL генерирует временный пароль, но срок его действия сразу кончается. И при первом подключении к MySQL выдается следующая ошибка:
+ERROR 1862 (HY000): Your password has expired. To log in you must change it using a client that supports expired passwords.  Для изменения пароля необходимо в терминале ввести:</description>
+    </item>
+    
+  </channel>
+</rss>
