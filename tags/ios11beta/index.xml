@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ios11beta on ВБ</title>
+    <title>Ios11beta on Blog Of The Red Panda</title>
     <link>http://iuadget.github.io/tags/ios11beta/</link>
-    <description>Recent content in Ios11beta on ВБ</description>
+    <description>Recent content in Ios11beta on Blog Of The Red Panda</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</managingEditor>
-    <webMaster>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</webMaster>
+    <language>ru</language>
     <lastBuildDate>Tue, 18 Jul 2017 06:39:58 +0300</lastBuildDate>
     
 	<atom:link href="http://iuadget.github.io/tags/ios11beta/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +13,10 @@
     
     <item>
       <title>Баги  iOS11 beta</title>
-      <link>http://iuadget.github.io/post/ios11-beta-bugs/</link>
+      <link>http://iuadget.github.io/blog/ios11-beta-bugs/</link>
       <pubDate>Tue, 18 Jul 2017 06:39:58 +0300</pubDate>
-      <author>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</author>
-      <guid>http://iuadget.github.io/post/ios11-beta-bugs/</guid>
+      
+      <guid>http://iuadget.github.io/blog/ios11-beta-bugs/</guid>
       <description>За два дня работы на iOS11 beta было найдено пару багов:
 1. Анимация при выполнения стандартных действий:       2. Невозможно переместить приложение из папки   3. Артефакты анимации приложений при изменении/переименовании папки   4. Локализация в AppStore 5. Перекрытие кнопкой иконки приложения Все найденные баги были отправлены в Apple.</description>
     </item>
