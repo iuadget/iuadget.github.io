@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Qa on ВБ</title>
+    <title>Qa on Blog Of The Red Panda</title>
     <link>http://iuadget.github.io/tags/qa/</link>
-    <description>Recent content in Qa on ВБ</description>
+    <description>Recent content in Qa on Blog Of The Red Panda</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</managingEditor>
-    <webMaster>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</webMaster>
+    <language>ru</language>
     <lastBuildDate>Tue, 11 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://iuadget.github.io/tags/qa/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +13,10 @@
     
     <item>
       <title>Отзыв на курс &#34;Школа для начинающих тестировщиков&#34;</title>
-      <link>http://iuadget.github.io/post/course-shnat-1/</link>
+      <link>http://iuadget.github.io/blog/course-shnat-1/</link>
       <pubDate>Tue, 11 Jul 2017 00:00:00 +0000</pubDate>
-      <author>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</author>
-      <guid>http://iuadget.github.io/post/course-shnat-1/</guid>
+      
+      <guid>http://iuadget.github.io/blog/course-shnat-1/</guid>
       <description>В период с 22.05.2017 по 10.07.2017 проходил курс &amp;ldquo;Школа для начинающих тестировщиков&amp;rdquo;. Мои впечатления от курса:
 Плюсы: 1) Подача материала. Теоретический материал гармонично дополняют практические занятия.
 2) Преподаватели. Подскажут и покажут куда двигаться дальше.

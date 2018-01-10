@@ -17,9 +17,6 @@
 <meta name="generator" content="Hugo 0.32.2" />
 
 
-  <link href="Page%28%22Blog%20Of%20The%20Red%20Panda%22%29" rel="alternate" type="application/rss+xml" title="Blog Of The Red Panda" />
-  <link href="Page%28%22Blog%20Of%20The%20Red%20Panda%22%29" rel="feed" type="application/rss+xml" title="Blog Of The Red Panda" />
-
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
@@ -45,52 +42,97 @@
 <div class="container">
 
 
-<header class="row text-center header">
-   <img src="/images/avatar-icon.png" alt="Author Image" class="img-circle text-center headshot"> 
-  <h1 class="author">Βίκτωρ Μπογκντάνοφ</h1>
+<header class="row text-left title">
+  <h1 class="title">Смена пароля в MySQL сервере</h1>
 </header>
+<section id="category-pane" class="row meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-left meta">
+        Опубликовано 2017-07-30 
+      
+    </h6>
+  </div>
+  
+</section>
+<section id="content-pane" class="row">
+  <div class="col-md-12 text-justify content">
+    
 
+<h4 id="1-смена-пароля">1. Смена пароля</h4>
 
-<section id="info-pane" class="row text-center info">
+<p>Поставил на macOS Sierra MySQL сервер. При установке MySQL выдал временный пароль:</p>
+
+<p><img src="/images/2017/mysql/temp_password.jpg" alt="Временный пароль" /></p>
+
+<p><em>В новой версии MySQL временные пароль стали иметь срок действия.</em> При установке MySQL генерирует временный пароль, но срок его действия сразу кончается. И при первом подключении к MySQL выдается следующая ошибка:</p>
+
+<pre><code>ERROR 1862 (HY000): Your password has expired. To log in you must change it using a client that supports expired passwords.
+</code></pre>
+
+<p>Для изменения пароля необходимо в терминале ввести:</p>
+
+<pre><code>/usr/local/mysql/bin/mysqladmin -u root -p'temppassword' password 'newpassword'
+</code></pre>
+
+<h4 id="2-удаление-mysql">2. Удаление MySQL</h4>
+
+<p>Для удаления MySQL сервера необходимо:</p>
+
+<p>1) остановить MySQL сервер;</p>
+
+<p>2) в терминале ввести следующие команды:</p>
+
+<pre><code>sudo rm /usr/local/mysql
+sudo rm -rf /usr/local/mysql*
+sudo rm -rf /Library/StartupItems/MySQLCOM
+sudo rm -rf /Library/PreferencePanes/My*
+sudo rm -rf /Library/Receipts/mysql*
+sudo rm -rf /Library/Receipts/MySQL*
+sudo rm -rf /private/var/db/receipts/*mysql*
+</code></pre>
+
+  </div>
+</section>
+<section id="tag-pane" class="row meta">
   
-  <h3 class="intro">If you only do what you can do, you’ll never be better than what you are.</h3>
-  
-  
-  <h4 class="description">It does not matter how slowly you go as long as you do not stop.</h4>
+  <div class="col-md-12">
+    <h6 class="text-right meta">
+      
+      
+      
+      Тэги:
+      
+      
+      <a class="meta" href="/tags/macos">MACOS</a>, 
+      
+      <a class="meta" href="/tags/mysql">MYSQL</a>
+      
+      
+      
+    </h6>
+  </div>
   
 </section>
 
 
-<section id="social-pane" class="row text-center social">
-  
-  <a href="https://twitter.com/iuadget"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  
-  
-  
-  
-  <a href="https://github.com/iuadget"><i class="fa fa-github" aria-hidden="true"></i></a>
-  
-  
-  
-  <a href="https://linkedin.com/in/iuadget"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-  
-  
-  
-  
-  
-  
-  <a href="mailto:iuadget@outlook.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-  
-  
-</section>
 
 
-<section id="main-menu-pane" class="row text-center main-menu">
+
+
+
+
+<section id="menu-pane" class="row menu text-center">
   
-  <h4><a class="menu-item" href="/blog/">блог</a></h4>
   
-  <h4><a class="menu-item" href="/about/">обо мне</a></h4>
+  <span><a class="menu-item" href="http://iuadget.github.io/blog/ios11-beta-bugs/">&lt; Предыдущая | </a></span>
   
+  
+  
+  
+  
+  
+  <h4 class="text-center"><a class="menu-item" href="http://iuadget.github.io/">Обратно</a></h4>
 </section>
 
 
@@ -131,4 +173,5 @@ ga('send', 'pageview');
 <script src="js/main.js"></script>
 </body>
 </html>
+
 

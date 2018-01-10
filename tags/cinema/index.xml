@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cinema on ВБ</title>
+    <title>Cinema on Blog Of The Red Panda</title>
     <link>http://iuadget.github.io/tags/cinema/</link>
-    <description>Recent content in Cinema on ВБ</description>
+    <description>Recent content in Cinema on Blog Of The Red Panda</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</managingEditor>
-    <webMaster>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</webMaster>
+    <language>ru</language>
     <lastBuildDate>Sun, 09 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://iuadget.github.io/tags/cinema/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +13,10 @@
     
     <item>
       <title>Дружелюбный сосед</title>
-      <link>http://iuadget.github.io/post/cinema-spider-man-homecoming/</link>
+      <link>http://iuadget.github.io/blog/cinema-spider-man-homecoming/</link>
       <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
-      <author>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</author>
-      <guid>http://iuadget.github.io/post/cinema-spider-man-homecoming/</guid>
+      
+      <guid>http://iuadget.github.io/blog/cinema-spider-man-homecoming/</guid>
       <description>Очередной перезапуск «Человека-паука» удался.
 Что понравилось: 1) Главный герой - «дружелюбный сосед», собирающий с другом «Звезду смерти» из ЛЕГО.
 2) Акцент в фильме сделан на школьной жизни Паркера.

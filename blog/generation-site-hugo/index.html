@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="description" content="Blog Of The Red Pandae">
+<meta name="keywords" content="blog,IT,QA,developer">
+
+<base href="http://iuadget.github.io/">
+
+<title>Blog Of The Red Panda</title>
+
+<meta name="generator" content="Hugo 0.32.2" />
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto+Slab:400,700|Roboto:300,300i,400,400i,500,500i,700,700i">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://iuadget.github.io/css/main.css">
+
+
+
+
+
+<link rel="icon" type="image/ico" href="/favicon.ico" sizes="32x32">
+<link rel="icon" type="image/ico" href="/favicon.ico" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+<body lang="ru">
+<div class="container">
+
+
+<header class="row text-left title">
+  <h1 class="title">Генерация сайта на HUGO</h1>
+</header>
+<section id="category-pane" class="row meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-left meta">
+        Опубликовано 2017-05-28 
+      
+    </h6>
+  </div>
+  
+</section>
+<section id="content-pane" class="row">
+  <div class="col-md-12 text-justify content">
+    <p>За прошедший год идей для статей было много, но ни одна из них не превратился в статью.<br />
+За это время была переустановлена система и все исходники блога были удалены, осталось только сгенерированная статика.<br />
+Чтоб не забыть, небольшие заметки:</p>
+
+<p>1) Установить <strong>Hugo</strong>.<br />
+Для этого воспользуемся <a href="https://brew.sh/index_ru.html">Homebrew</a>.<br />
+Пишем следующую команду в терминале:</p>
+
+<pre><code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+</code></pre>
+
+<p>После успешной инсталляции приступаем к установке <strong>Hugo</strong>, для этого в терминале пишем:</p>
+
+<pre><code>brew install hugo
+</code></pre>
+
+<p><em>Hugo</em> установлен.</p>
+
+<p>2) Создать сайт.<br />
+Воспользуемся статьей <a href="https://gohugo.io/overview/quickstart/">Hugo - Hugo Quickstart Guide</a><br />
+2.1) Создаем новый сайт. В терминале пишем следующую строку:</p>
+
+<pre><code>hugo new site best-site
+</code></pre>
+
+<p>Сайт успешно создан.
+<img src="/images/2017/generation-site/generaton-site.png" width="650"><br />
+2.2) Выбираем тему.<br />
+Для созданных сайтов, каталог с темами пустой, поэтому придется выбрать и установить тему сайта. Все темы располагаются в каталоге <em>themes</em>. Перейдем в каталог с темами:</p>
+
+<pre><code>cd themes
+</code></pre>
+
+<p>Клонируем тему в каталог.</p>
+
+<pre><code>git clone https://github.com/dim0627/hugo_theme_robust.git
+</code></pre>
+
+<p>Тема успешно клонирована.<br />
+<img src="/images/2017/generation-site/clone-theme.png" width="650"><br />
+Большой выбор тем для сайта доступен в <a href="http://themes.gohugo.io">Каталоге тем для Hugo</a></p>
+
+<p>2.3) Настраиваем конфигурационный файл.<br />
+В корне нашего сайта лежит конфигурационный файл <em>config.toml</em>.  По умолчанию файл конфигурации использует Формат <strong>TOML</strong>, но также можно использовать формат <strong>YAML</strong> или <strong>JSON</strong>. Параметры конфигурации, указанные в <em>config.toml</em> применяются к полной версии сайта.</p>
+
+<pre><code>name = &quot;Robust&quot;
+license = &quot;MIT&quot;
+licenselink = &quot;https://github.com/dim0627/hugo_theme_robust/blob/master/LICENSE.md&quot;
+description = &quot;Grid based theme for Hugo.&quot;
+homepage = &quot;https://github.com/dim0627/hugo_theme_robust&quot;
+tags = [&quot;blog&quot;]
+features = [&quot;responsive&quot;, &quot;thumbnail&quot;, &quot;grid&quot;, &quot;syntax highlight&quot;, &quot;structured data&quot;, &quot;ogp&quot;, &quot;twitter cards&quot;]
+min_version = 0.20.2
+
+[author]
+  name = &quot;Daisuke Tsuji&quot;
+  homepage = &quot;https://yet.unresolved.xyz/&quot;
+</code></pre>
+
+<p>Добавим следующую информацию:</p>
+
+<pre><code>baseURL = &quot;http://наш-сайт.рф/&quot;
+languageCode = &quot;ru-RU&quot;
+title = &quot;The Best Site&quot;
+
+[Params]
+  Author = &quot;Самый лучший писатель&quot;
+</code></pre>
+
+<p>2.4) Создаем статью.<br />
+Для того чтобы создать новую статью, напишем следующее:</p>
+
+<pre><code>hugo new post/good-to-great.md
+</code></pre>
+
+<p>В результате в каталоге <em>content</em> должен появиться файл в формате <strong>Markdown</strong>:</p>
+
+<pre><code>content
+`-- post
+    `-- good-to-great.md
+</code></pre>
+
+<p>В любом удобном редакторе начинаем писать статью.<br />
+Для проверки отображения сайта и публикуемой статьи запустим сервер:</p>
+
+<pre><code>hugo server --theme=hugo_theme_robust --buildDrafts
+</code></pre>
+
+<p>Чтобы просмотреть что получилось, переходим по адресу <a href="http://localhost:1313/">http://localhost:1313/</a>.</p>
+
+<p>2.5) Генерация статичного сайта для публикации.<br />
+Когда все написано и проверено необходимо сгенерировать сайт, для этого пишем:</p>
+
+<pre><code>hugo --theme=hugo_theme_robust
+</code></pre>
+
+<p>После выполнения команды в корне сайта будет создан каталог <em>public</em>, содержащий сгенерированный исходный сайт.</p>
+
+<p>3) Размешаем сайт.<br />
+Хостим полученный сайт, например на <a href="https://pages.github.com/">Github Pages</a>.</p>
+
+  </div>
+</section>
+<section id="tag-pane" class="row meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-right meta">
+      
+      
+      
+      Тэги:
+      
+      
+      <a class="meta" href="/tags/hugo">HUGO</a>, 
+      
+      <a class="meta" href="/tags/%D0%B1%D0%BB%D0%BE%D0%B3">БЛОГ</a>
+      
+      
+      
+    </h6>
+  </div>
+  
+</section>
+
+
+
+
+
+
+
+
+<section id="menu-pane" class="row menu text-center">
+  
+  
+  <span><a class="menu-item" href="http://iuadget.github.io/blog/as-we-were-preparing-the-march-8/">&lt; Предыдущая | </a></span>
+  
+  
+  
+  
+  
+  <span><a class="menu-item" href="http://iuadget.github.io/blog/cinema-spider-man-homecoming/"> | Следующая &gt;</a></span>
+  
+  
+  <h4 class="text-center"><a class="menu-item" href="http://iuadget.github.io/">Обратно</a></h4>
+</section>
+
+
+
+<footer class="row text-center footer">
+  <hr />
+  
+  <h6 class="text-center copyright">© 2018. Βίκτωρ Μπογκντάνοφ.</h6>
+  
+  <h6 class="text-center powered">Сайт работает на <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/shenoybr/hugo-goa">Goa</a>.</h6>
+  
+  
+</footer>
+
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+
+<script type="text/javascript">
+hljs.initHighlightingOnLoad();
+</script>
+
+
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-73438211-1XYZ', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+
+

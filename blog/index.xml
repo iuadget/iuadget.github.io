@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog Of The Red Panda</title>
-    <link>http://iuadget.github.io/</link>
-    <description>Recent content on Blog Of The Red Panda</description>
+    <title>Blogs on Blog Of The Red Panda</title>
+    <link>http://iuadget.github.io/blog/</link>
+    <description>Recent content in Blogs on Blog Of The Red Panda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
-    <lastBuildDate>Wed, 10 Jan 2018 07:55:38 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 30 Jul 2017 08:22:01 +0300</lastBuildDate>
     
-	<atom:link href="http://iuadget.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://iuadget.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Обо мне</title>
-      <link>http://iuadget.github.io/about/</link>
-      <pubDate>Wed, 10 Jan 2018 07:55:38 +0300</pubDate>
-      
-      <guid>http://iuadget.github.io/about/</guid>
-      <description>Меня зовут Βίκτωρ и это мой персональный блог.
-Люблю черный кофе и изучать новые технологии. Работаю QA-инженером.
-У меня довольно много увлечений, поэтому на страницах блога публикуется разный контент.</description>
-    </item>
     
     <item>
       <title>Смена пароля в MySQL сервере</title>

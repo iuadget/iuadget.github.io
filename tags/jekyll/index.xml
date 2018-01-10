@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jekyll on ВБ</title>
+    <title>Jekyll on Blog Of The Red Panda</title>
     <link>http://iuadget.github.io/tags/jekyll/</link>
-    <description>Recent content in Jekyll on ВБ</description>
+    <description>Recent content in Jekyll on Blog Of The Red Panda</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</managingEditor>
-    <webMaster>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</webMaster>
+    <language>ru</language>
     <lastBuildDate>Sun, 06 Mar 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://iuadget.github.io/tags/jekyll/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +13,10 @@
     
     <item>
       <title>Перешел на HUGO</title>
-      <link>http://iuadget.github.io/post/switched-to-hugo/</link>
+      <link>http://iuadget.github.io/blog/switched-to-hugo/</link>
       <pubDate>Sun, 06 Mar 2016 00:00:00 +0000</pubDate>
-      <author>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</author>
-      <guid>http://iuadget.github.io/post/switched-to-hugo/</guid>
+      
+      <guid>http://iuadget.github.io/blog/switched-to-hugo/</guid>
       <description>Предыдущий сгенерированный блог на Jekyll не удовлетворил внутреннему голосу перфекциониста, поэтому я стал рассматривать другие генераторы статических сайтов. В поисках идеального генератора статических сайта (для себя) попробовал:
  Jekyll Результат здесь.
  Hugo Результат - данный блог.
@@ -26,10 +25,10 @@
     
     <item>
       <title>Создание блога</title>
-      <link>http://iuadget.github.io/post/blog-creation/</link>
+      <link>http://iuadget.github.io/blog/blog-creation/</link>
       <pubDate>Sat, 05 Mar 2016 00:00:00 +0000</pubDate>
-      <author>iuadget@outlook.com (Βίκτωρ Μπογκντάνοφ)</author>
-      <guid>http://iuadget.github.io/post/blog-creation/</guid>
+      
+      <guid>http://iuadget.github.io/blog/blog-creation/</guid>
       <description>После прочтения статьи: Создаем блог используя Jekyll и GitHub Pages создал блог. Посмотрим что выйдет из этого эксперемента.</description>
     </item>
     
