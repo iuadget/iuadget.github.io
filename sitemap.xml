@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://iuadget.github.io/blog/delete-commit-github/</loc>
+    <lastmod>2018-01-11T22:31:31+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://iuadget.github.io/about/</loc>
     <lastmod>2018-01-10T07:55:38+03:00</lastmod>
   </url>
@@ -55,13 +60,13 @@
   
   <url>
     <loc>http://iuadget.github.io/</loc>
-    <lastmod>2018-01-10T07:55:38+03:00</lastmod>
+    <lastmod>2018-01-11T22:31:31+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://iuadget.github.io/blog/</loc>
-    <lastmod>2017-07-30T08:22:01+03:00</lastmod>
+    <lastmod>2018-01-11T22:31:31+03:00</lastmod>
     <priority>0</priority>
   </url>
   

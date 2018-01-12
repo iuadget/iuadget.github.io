@@ -6,10 +6,22 @@
     <description>Recent content in Blogs on Blog Of The Red Panda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
-    <lastBuildDate>Sun, 30 Jul 2017 08:22:01 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jan 2018 22:31:31 +0300</lastBuildDate>
     
 	<atom:link href="http://iuadget.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Как откатить коммит на github</title>
+      <link>http://iuadget.github.io/blog/delete-commit-github/</link>
+      <pubDate>Thu, 11 Jan 2018 22:31:31 +0300</pubDate>
+      
+      <guid>http://iuadget.github.io/blog/delete-commit-github/</guid>
+      <description>Иногда бывают ситуации, когда надо удалить (откатить) коммит обратно, для этого:
+1. Получаем хэш-код коммита, к которому хотим вернуться.
+2. Заходим в папку репозитория (локально) и пишем в консоль:
+$ git reset --hard &amp;lt;хэш-код коммита&amp;gt; $ git push --force  Вот и вся операция.</description>
+    </item>
     
     <item>
       <title>Смена пароля в MySQL сервере</title>

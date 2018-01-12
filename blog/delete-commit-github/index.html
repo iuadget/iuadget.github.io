@@ -43,13 +43,13 @@
 
 
 <header class="row text-left title">
-  <h1 class="title">Смена пароля в MySQL сервере</h1>
+  <h1 class="title">Как откатить коммит на github</h1>
 </header>
 <section id="category-pane" class="row meta">
   
   <div class="col-md-12">
     <h6 class="text-left meta">
-        Опубликовано 2017-07-30 
+        Опубликовано 2018-01-11 
       
     </h6>
   </div>
@@ -57,40 +57,15 @@
 </section>
 <section id="content-pane" class="row">
   <div class="col-md-12 text-justify content">
-    
+    <p>Иногда бывают ситуации, когда надо удалить (откатить) коммит обратно, для этого:<br />
+1. Получаем хэш-код коммита, к которому хотим вернуться.<br />
+2. Заходим в папку репозитория (локально) и пишем в консоль:</p>
 
-<h4 id="1-смена-пароля">1. Смена пароля</h4>
-
-<p>Поставил на macOS Sierra MySQL сервер. При установке MySQL выдал временный пароль:</p>
-
-<p><img src="/images/2017/mysql/temp_password.jpg" alt="Временный пароль" /></p>
-
-<p><em>В новой версии MySQL временные пароль стали иметь срок действия.</em> При установке MySQL генерирует временный пароль, но срок его действия сразу кончается. И при первом подключении к MySQL выдается следующая ошибка:</p>
-
-<pre><code>ERROR 1862 (HY000): Your password has expired. To log in you must change it using a client that supports expired passwords.
+<pre><code>$ git reset --hard &lt;хэш-код коммита&gt; 
+$ git push --force
 </code></pre>
 
-<p>Для изменения пароля необходимо в терминале ввести:</p>
-
-<pre><code>/usr/local/mysql/bin/mysqladmin -u root -p'temppassword' password 'newpassword'
-</code></pre>
-
-<h4 id="2-удаление-mysql">2. Удаление MySQL</h4>
-
-<p>Для удаления MySQL сервера необходимо:</p>
-
-<p>1) остановить MySQL сервер;</p>
-
-<p>2) в терминале ввести следующие команды:</p>
-
-<pre><code>sudo rm /usr/local/mysql
-sudo rm -rf /usr/local/mysql*
-sudo rm -rf /Library/StartupItems/MySQLCOM
-sudo rm -rf /Library/PreferencePanes/My*
-sudo rm -rf /Library/Receipts/mysql*
-sudo rm -rf /Library/Receipts/MySQL*
-sudo rm -rf /private/var/db/receipts/*mysql*
-</code></pre>
+<p>Вот и вся операция.</p>
 
   </div>
 </section>
@@ -98,17 +73,6 @@ sudo rm -rf /private/var/db/receipts/*mysql*
   
   <div class="col-md-12">
     <h6 class="text-right meta">
-      
-      
-      
-      Тэги:
-      
-      
-      <a class="meta" href="/tags/macos">MACOS</a>, 
-      
-      <a class="meta" href="/tags/mysql">MYSQL</a>
-      
-      
       
     </h6>
   </div>
@@ -125,13 +89,11 @@ sudo rm -rf /private/var/db/receipts/*mysql*
 <section id="menu-pane" class="row menu text-center">
   
   
-  <span><a class="menu-item" href="http://iuadget.github.io/blog/ios11-beta-bugs/">&lt; Предыдущая | </a></span>
+  <span><a class="menu-item" href="http://iuadget.github.io/blog/mysql/">&lt; Предыдущая | </a></span>
   
   
   
   
-  
-  <span><a class="menu-item" href="http://iuadget.github.io/blog/delete-commit-github/"> | Следующая &gt;</a></span>
   
   
   <h4 class="text-center"><a class="menu-item" href="http://iuadget.github.io/">Обратно</a></h4>
