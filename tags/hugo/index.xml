@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on Blog Of The Red Panda</title>
+    <title>Hugo on βμ</title>
     <link>http://iuadget.github.io/tags/hugo/</link>
-    <description>Recent content in Hugo on Blog Of The Red Panda</description>
+    <description>Recent content in Hugo on βμ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <lastBuildDate>Sun, 28 May 2017 00:00:00 +0000</lastBuildDate>
@@ -13,30 +13,22 @@
     
     <item>
       <title>Генерация сайта на HUGO</title>
-      <link>http://iuadget.github.io/blog/generation-site-hugo/</link>
+      <link>http://iuadget.github.io/posts/generation-site-hugo/</link>
       <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iuadget.github.io/blog/generation-site-hugo/</guid>
+      <guid>http://iuadget.github.io/posts/generation-site-hugo/</guid>
       <description>За прошедший год идей для статей было много, но ни одна из них не превратился в статью.
-За это время была переустановлена система и все исходники блога были удалены, осталось только сгенерированная статика.
-Чтоб не забыть, небольшие заметки:
-1) Установить Hugo.
-Для этого воспользуемся Homebrew.
-Пишем следующую команду в терминале:
-/usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;  После успешной инсталляции приступаем к установке Hugo, для этого в терминале пишем:
-brew install hugo  Hugo установлен.</description>
+За это время была переустановлена система и все исходники блога были удалены, осталось только сгенерированная статика.</description>
     </item>
     
     <item>
       <title>Перешел на HUGO</title>
-      <link>http://iuadget.github.io/blog/switched-to-hugo/</link>
+      <link>http://iuadget.github.io/posts/switched-to-hugo/</link>
       <pubDate>Sun, 06 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://iuadget.github.io/blog/switched-to-hugo/</guid>
+      <guid>http://iuadget.github.io/posts/switched-to-hugo/</guid>
       <description>Предыдущий сгенерированный блог на Jekyll не удовлетворил внутреннему голосу перфекциониста, поэтому я стал рассматривать другие генераторы статических сайтов. В поисках идеального генератора статических сайта (для себя) попробовал:
- Jekyll Результат здесь.
- Hugo Результат - данный блог.
-  Для Jekyll на просторах интернета найти статьи и видео на русском языке не сложно, в отличие от Hugo. Наверное это и заставило меня остановиться на Hugo.</description>
+ Jekyll Результат здесь.</description>
     </item>
     
   </channel>

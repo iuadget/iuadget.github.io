@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jekyll on Blog Of The Red Panda</title>
+    <title>Jekyll on βμ</title>
     <link>http://iuadget.github.io/tags/jekyll/</link>
-    <description>Recent content in Jekyll on Blog Of The Red Panda</description>
+    <description>Recent content in Jekyll on βμ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <lastBuildDate>Sun, 06 Mar 2016 00:00:00 +0000</lastBuildDate>
@@ -13,22 +13,20 @@
     
     <item>
       <title>Перешел на HUGO</title>
-      <link>http://iuadget.github.io/blog/switched-to-hugo/</link>
+      <link>http://iuadget.github.io/posts/switched-to-hugo/</link>
       <pubDate>Sun, 06 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://iuadget.github.io/blog/switched-to-hugo/</guid>
+      <guid>http://iuadget.github.io/posts/switched-to-hugo/</guid>
       <description>Предыдущий сгенерированный блог на Jekyll не удовлетворил внутреннему голосу перфекциониста, поэтому я стал рассматривать другие генераторы статических сайтов. В поисках идеального генератора статических сайта (для себя) попробовал:
- Jekyll Результат здесь.
- Hugo Результат - данный блог.
-  Для Jekyll на просторах интернета найти статьи и видео на русском языке не сложно, в отличие от Hugo. Наверное это и заставило меня остановиться на Hugo.</description>
+ Jekyll Результат здесь.</description>
     </item>
     
     <item>
       <title>Создание блога</title>
-      <link>http://iuadget.github.io/blog/blog-creation/</link>
+      <link>http://iuadget.github.io/posts/blog-creation/</link>
       <pubDate>Sat, 05 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://iuadget.github.io/blog/blog-creation/</guid>
+      <guid>http://iuadget.github.io/posts/blog-creation/</guid>
       <description>После прочтения статьи: Создаем блог используя Jekyll и GitHub Pages создал блог. Посмотрим что выйдет из этого эксперемента.</description>
     </item>
     
