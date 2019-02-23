@@ -6,10 +6,21 @@
     <description>Recent content in Posts on βμ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
-    <lastBuildDate>Sun, 06 Jan 2019 12:42:14 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 23 Feb 2019 10:19:03 +0300</lastBuildDate>
     
 	<atom:link href="http://iuadget.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Обновление вручную Oh My Zsh</title>
+      <link>http://iuadget.github.io/posts/manually-update-oh-my-zsh/</link>
+      <pubDate>Sat, 23 Feb 2019 10:19:03 +0300</pubDate>
+      
+      <guid>http://iuadget.github.io/posts/manually-update-oh-my-zsh/</guid>
+      <description>Обновление вручную oh-my-zsh
+Когда надо вручную запустить обновление oh-my-zsh на Mac в консоли - то воспользуйтесь этой командой:
+upgrade_oh_my_zsh  </description>
+    </item>
     
     <item>
       <title>Переход с ios на android</title>

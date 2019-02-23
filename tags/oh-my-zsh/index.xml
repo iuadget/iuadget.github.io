@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oh My Zsh on βμ</title>
+    <link>http://iuadget.github.io/tags/oh-my-zsh/</link>
+    <description>Recent content in Oh My Zsh on βμ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <lastBuildDate>Sat, 23 Feb 2019 10:19:03 +0300</lastBuildDate>
+    
+	<atom:link href="http://iuadget.github.io/tags/oh-my-zsh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Обновление вручную Oh My Zsh</title>
+      <link>http://iuadget.github.io/posts/manually-update-oh-my-zsh/</link>
+      <pubDate>Sat, 23 Feb 2019 10:19:03 +0300</pubDate>
+      
+      <guid>http://iuadget.github.io/posts/manually-update-oh-my-zsh/</guid>
+      <description>Обновление вручную oh-my-zsh
+Когда надо вручную запустить обновление oh-my-zsh на Mac в консоли - то воспользуйтесь этой командой:
+upgrade_oh_my_zsh  </description>
+    </item>
+    
+  </channel>
+</rss>
