@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Macos on βμ</title>
-    <link>http://iuadget.github.io/tags/macos/</link>
-    <description>Recent content in Macos on βμ</description>
+    <title>macOS on βμ</title>
+    <link>https://blog.udjat.me/tags/macos/</link>
+    <description>Recent content in macOS on βμ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <lastBuildDate>Sun, 30 Jul 2017 08:22:01 +0300</lastBuildDate>
     
-	<atom:link href="http://iuadget.github.io/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.udjat.me/tags/macos/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Смена пароля в MySQL сервере</title>
-      <link>http://iuadget.github.io/posts/mysql/</link>
+      <link>https://blog.udjat.me/posts/mysql/</link>
       <pubDate>Sun, 30 Jul 2017 08:22:01 +0300</pubDate>
       
-      <guid>http://iuadget.github.io/posts/mysql/</guid>
+      <guid>https://blog.udjat.me/posts/mysql/</guid>
       <description>1. Смена пароля Поставил на macOS Sierra MySQL сервер. При установке MySQL выдал временный пароль:
 В новой версии MySQL временные пароль стали иметь срок действия. При установке MySQL генерирует временный пароль, но срок его действия сразу кончается.</description>
     </item>

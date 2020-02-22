@@ -11,7 +11,7 @@
 <meta http-equiv="Cache-Control" content="public" />
 <!-- Enable responsiveness on mobile devices -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="generator" content="Hugo 0.54.0" />
+<meta name="generator" content="Hugo 0.65.2" />
 
     
     
@@ -29,9 +29,9 @@
 <meta property="og:description" content="1. Смена пароля Поставил на macOS Sierra MySQL сервер. При установке MySQL выдал временный пароль:
 В новой версии MySQL временные пароль стали иметь срок действия. При установке MySQL генерирует временный пароль, но срок его действия сразу кончается." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://iuadget.github.io/posts/mysql/" />
-<meta property="article:published_time" content="2017-07-30T08:22:01&#43;03:00"/>
-<meta property="article:modified_time" content="2017-07-30T08:22:01&#43;03:00"/><meta property="og:site_name" content="Blog Of The βμ" />
+<meta property="og:url" content="https://blog.udjat.me/posts/mysql/" />
+<meta property="article:published_time" content="2017-07-30T08:22:01+03:00" />
+<meta property="article:modified_time" content="2017-07-30T08:22:01+03:00" /><meta property="og:site_name" content="Blog Of The βμ" />
 
 
     
@@ -46,7 +46,7 @@
 
 
 
-<link rel="stylesheet" href="/scss/hyde-hyde.6a83d62c39a364f036df4db1ecd564645635d6c7fc182425cb501218fec485f5.css" integrity="sha256-aoPWLDmjZPA2302x7NVkZFY11sf8GCQly1ASGP7EhfU=">
+<link rel="stylesheet" href="/scss/hyde-hyde.3081c4981fb69a2783dd36ecfdd0e6ba7a158d4cbfdd290ebce8f78ba0469fc6.css" integrity="sha256-MIHEmB&#43;2mieD3Tbs/dDmunoVjUy/3SkOvOj3i6BGn8Y=">
 
 
 <link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
@@ -59,8 +59,9 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <!-- Icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon.png">
-    <link rel="shortcut icon" sizes="32x32" href="favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
     
 
 </head>
@@ -72,14 +73,14 @@
   <div class="container ">
     <div class="sidebar-about">
       <span class="site__title">
-        <a href="http://iuadget.github.io/">βμ</a>
+        <a href="https://blog.udjat.me">βμ</a>
       </span>
       
         
         
         
         <div class="author-image">
-          <img src="http://iuadget.github.io//avatar-image.png" alt="Author Image" class="img--circle img--headshot element--center">
+          <img src="https://blog.udjat.meavatar-image.png" alt="Author Image" class="img--circle img--headshot element--center">
         </div>
         
       
@@ -112,7 +113,6 @@
 				</li>
 			 
 		
-		</li>
 	</ul>
 </div>
 
@@ -123,6 +123,8 @@
 	
 	
 	<a href="https://github.com/iuadget" rel="me"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a>
+	
+	
 	
 	
 	
@@ -145,13 +147,13 @@
     </div>
     
 <div class="copyright">
-  &copy; 2019 Βίκτωρ Μπογκντάνοφ.
+  &copy; 2020 Βίκτωρ Μπογκντάνοφ.
   
 </div>
 
 
 <div class="builtwith">
-Работает на <a href="https://gohugo.io">Hugo</a> & <a href="https://github.com/htr3n/hyde-hyde">hyde-hyde</a>.
+Built with <a href="https://gohugo.io">Hugo</a> ❤️ <a href="https://github.com/htr3n/hyde-hyde">hyde-hyde</a>.
 </div>
 
 
@@ -160,7 +162,8 @@
 
         <div class="content container">
             
-    <article>
+    
+<article>
   <header>
     <h1>Смена пароля в MySQL сервере</h1>
     
@@ -168,7 +171,7 @@
 <div class="post__meta">
     
     
-      <i class="fas fa-calendar-alt"></i> Jul 2017
+      <i class="fas fa-calendar-alt"></i> 2017-07-30
     
     
     
@@ -188,7 +191,7 @@
     
     
     <br/>
-    <i class="fas fa-clock"></i> 1 мин на чтение
+    <i class="fas fa-clock"></i> 1 min read
 </div>
 
 
@@ -196,32 +199,23 @@
   
   
   <div class="post">
-    
-
-<h4 id="1-смена-пароля">1. Смена пароля</h4>
-
+    <h4 id="1-смена-пароля">1. Смена пароля</h4>
 <p>Поставил на macOS Sierra MySQL сервер. При установке MySQL выдал временный пароль:</p>
-
-<p><img src="/images/2017/mysql/temp_password.jpg" alt="Временный пароль" /></p>
-
+<p><img src="/images/2017/mysql/temp_password.jpg" alt="Временный пароль"></p>
 <p><em>В новой версии MySQL временные пароль стали иметь срок действия.</em> При установке MySQL генерирует временный пароль, но срок его действия сразу кончается. И при первом подключении к MySQL выдается следующая ошибка:</p>
-
 <pre><code>ERROR 1862 (HY000): Your password has expired. To log in you must change it using a client that supports expired passwords.
-</code></pre>
-
-<p>Для изменения пароля необходимо в терминале ввести:</p>
-
+</code></pre><p>Для изменения пароля необходимо в терминале ввести:</p>
 <pre><code>/usr/local/mysql/bin/mysqladmin -u root -p'temppassword' password 'newpassword'
-</code></pre>
-
-<h4 id="2-удаление-mysql">2. Удаление MySQL</h4>
-
+</code></pre><h4 id="2-удаление-mysql">2. Удаление MySQL</h4>
 <p>Для удаления MySQL сервера необходимо:</p>
-
-<p>1) остановить MySQL сервер;</p>
-
-<p>2) в терминале ввести следующие команды:</p>
-
+<ol>
+<li>
+<p>остановить MySQL сервер;</p>
+</li>
+<li>
+<p>в терминале ввести следующие команды:</p>
+</li>
+</ol>
 <pre><code>sudo rm /usr/local/mysql
 sudo rm -rf /usr/local/mysql*
 sudo rm -rf /Library/StartupItems/MySQLCOM
@@ -230,11 +224,23 @@ sudo rm -rf /Library/Receipts/mysql*
 sudo rm -rf /Library/Receipts/MySQL*
 sudo rm -rf /private/var/db/receipts/*mysql*
 </code></pre>
-
   </div>
   
 
-
+<div class="navigation navigation-single">
+    
+    <a href="/posts/ios11-beta-bugs/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">Баги  iOS11 beta</span>
+    </a>
+    
+    
+    <a href="/posts/delete-commit-github/" class="navigation-next">
+      <span class="navigation-tittle">Как откатить коммит на github</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
 
 
   
@@ -249,6 +255,7 @@ sudo rm -rf /private/var/db/receipts/*mysql*
         </div>
         
     
+
   
   
 <script type="application/javascript">

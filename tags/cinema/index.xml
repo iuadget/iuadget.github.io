@@ -1,26 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cinema on βμ</title>
-    <link>http://iuadget.github.io/tags/cinema/</link>
-    <description>Recent content in Cinema on βμ</description>
+    <title>cinema on βμ</title>
+    <link>https://blog.udjat.me/tags/cinema/</link>
+    <description>Recent content in cinema on βμ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <lastBuildDate>Sun, 09 Jul 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://iuadget.github.io/tags/cinema/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.udjat.me/tags/cinema/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Дружелюбный сосед</title>
-      <link>http://iuadget.github.io/posts/cinema-spider-man-homecoming/</link>
+      <link>https://blog.udjat.me/posts/cinema-spider-man-homecoming/</link>
       <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iuadget.github.io/posts/cinema-spider-man-homecoming/</guid>
+      <guid>https://blog.udjat.me/posts/cinema-spider-man-homecoming/</guid>
       <description>Очередной перезапуск «Человека-паука» удался.
-Что понравилось: 1) Главный герой - «дружелюбный сосед», собирающий с другом «Звезду смерти» из ЛЕГО.
-2) Акцент в фильме сделан на школьной жизни Паркера.
-3) Сценаристы не стали пересказывать историю становления Человека-Паука, которую мы и так все знаем.</description>
+Что понравилось:  Главный герой - «дружелюбный сосед», собирающий с другом «Звезду смерти» из ЛЕГО.  Акцент в фильме сделан на школьной жизни Паркера.  Сценаристы не стали пересказывать историю становления Человека-Паука, которую мы и так все знаем.</description>
     </item>
     
   </channel>

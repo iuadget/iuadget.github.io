@@ -11,7 +11,7 @@
 <meta http-equiv="Cache-Control" content="public" />
 <!-- Enable responsiveness on mobile devices -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="generator" content="Hugo 0.54.0" />
+<meta name="generator" content="Hugo 0.65.2" />
 
     
     
@@ -29,9 +29,9 @@
 <meta property="og:description" content="За прошедший год идей для статей было много, но ни одна из них не превратился в статью.
 За это время была переустановлена система и все исходники блога были удалены, осталось только сгенерированная статика." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://iuadget.github.io/posts/generation-site-hugo/" />
-<meta property="article:published_time" content="2017-05-28T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2017-05-28T00:00:00&#43;00:00"/><meta property="og:site_name" content="Blog Of The βμ" />
+<meta property="og:url" content="https://blog.udjat.me/posts/generation-site-hugo/" />
+<meta property="article:published_time" content="2017-05-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-05-28T00:00:00+00:00" /><meta property="og:site_name" content="Blog Of The βμ" />
 
 
     
@@ -46,7 +46,7 @@
 
 
 
-<link rel="stylesheet" href="/scss/hyde-hyde.6a83d62c39a364f036df4db1ecd564645635d6c7fc182425cb501218fec485f5.css" integrity="sha256-aoPWLDmjZPA2302x7NVkZFY11sf8GCQly1ASGP7EhfU=">
+<link rel="stylesheet" href="/scss/hyde-hyde.3081c4981fb69a2783dd36ecfdd0e6ba7a158d4cbfdd290ebce8f78ba0469fc6.css" integrity="sha256-MIHEmB&#43;2mieD3Tbs/dDmunoVjUy/3SkOvOj3i6BGn8Y=">
 
 
 <link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
@@ -59,8 +59,9 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <!-- Icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon.png">
-    <link rel="shortcut icon" sizes="32x32" href="favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
     
 
 </head>
@@ -72,14 +73,14 @@
   <div class="container ">
     <div class="sidebar-about">
       <span class="site__title">
-        <a href="http://iuadget.github.io/">βμ</a>
+        <a href="https://blog.udjat.me">βμ</a>
       </span>
       
         
         
         
         <div class="author-image">
-          <img src="http://iuadget.github.io//avatar-image.png" alt="Author Image" class="img--circle img--headshot element--center">
+          <img src="https://blog.udjat.meavatar-image.png" alt="Author Image" class="img--circle img--headshot element--center">
         </div>
         
       
@@ -112,7 +113,6 @@
 				</li>
 			 
 		
-		</li>
 	</ul>
 </div>
 
@@ -123,6 +123,8 @@
 	
 	
 	<a href="https://github.com/iuadget" rel="me"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a>
+	
+	
 	
 	
 	
@@ -145,13 +147,13 @@
     </div>
     
 <div class="copyright">
-  &copy; 2019 Βίκτωρ Μπογκντάνοφ.
+  &copy; 2020 Βίκτωρ Μπογκντάνοφ.
   
 </div>
 
 
 <div class="builtwith">
-Работает на <a href="https://gohugo.io">Hugo</a> & <a href="https://github.com/htr3n/hyde-hyde">hyde-hyde</a>.
+Built with <a href="https://gohugo.io">Hugo</a> ❤️ <a href="https://github.com/htr3n/hyde-hyde">hyde-hyde</a>.
 </div>
 
 
@@ -160,7 +162,8 @@
 
         <div class="content container">
             
-    <article>
+    
+<article>
   <header>
     <h1>Генерация сайта на HUGO</h1>
     
@@ -168,7 +171,7 @@
 <div class="post__meta">
     
     
-      <i class="fas fa-calendar-alt"></i> May 2017
+      <i class="fas fa-calendar-alt"></i> 2017-05-28
     
     
     
@@ -188,7 +191,7 @@
     
     
     <br/>
-    <i class="fas fa-clock"></i> 2 мин на чтение
+    <i class="fas fa-clock"></i> 2 min read
 </div>
 
 
@@ -196,51 +199,36 @@
   
   
   <div class="post">
-    <p>За прошедший год идей для статей было много, но ни одна из них не превратился в статью.<br />
-За это время была переустановлена система и все исходники блога были удалены, осталось только сгенерированная статика.<br />
+    <p>За прошедший год идей для статей было много, но ни одна из них не превратился в статью.<br>
+За это время была переустановлена система и все исходники блога были удалены, осталось только сгенерированная статика.<br>
 Чтоб не забыть, небольшие заметки:</p>
-
-<p>1) Установить <strong>Hugo</strong>.<br />
-Для этого воспользуемся <a href="https://brew.sh/index_ru.html">Homebrew</a>.<br />
-Пишем следующую команду в терминале:</p>
-
+<ol>
+<li>Установить <strong>Hugo</strong>.<br>
+Для этого воспользуемся <a href="https://brew.sh/index_ru.html">Homebrew</a>.<br>
+Пишем следующую команду в терминале:</li>
+</ol>
 <pre><code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
-</code></pre>
-
-<p>После успешной инсталляции приступаем к установке <strong>Hugo</strong>, для этого в терминале пишем:</p>
-
+</code></pre><p>После успешной инсталляции приступаем к установке <strong>Hugo</strong>, для этого в терминале пишем:</p>
 <pre><code>brew install hugo
-</code></pre>
-
-<p><em>Hugo</em> установлен.</p>
-
-<p>2) Создать сайт.<br />
-Воспользуемся статьей <a href="https://gohugo.io/overview/quickstart/">Hugo - Hugo Quickstart Guide</a><br />
-2.1) Создаем новый сайт. В терминале пишем следующую строку:</p>
-
+</code></pre><p><em>Hugo</em> установлен.</p>
+<ol start="2">
+<li>Создать сайт.<br>
+Воспользуемся статьей <a href="https://gohugo.io/overview/quickstart/">Hugo - Hugo Quickstart Guide</a> <br>
+2.1) Создаем новый сайт. В терминале пишем следующую строку:</li>
+</ol>
 <pre><code>hugo new site best-site
-</code></pre>
-
-<p>Сайт успешно создан.
-<img src="/images/2017/generation-site/generaton-site.png" width="650"><br />
-2.2) Выбираем тему.<br />
+</code></pre><p>Сайт успешно создан.
+<img src="/images/2017/generation-site/generaton-site.png" alt="generaton-site">
+2.2) Выбираем тему.<br>
 Для созданных сайтов, каталог с темами пустой, поэтому придется выбрать и установить тему сайта. Все темы располагаются в каталоге <em>themes</em>. Перейдем в каталог с темами:</p>
-
 <pre><code>cd themes
-</code></pre>
-
-<p>Клонируем тему в каталог.</p>
-
+</code></pre><p>Клонируем тему в каталог.</p>
 <pre><code>git clone https://github.com/dim0627/hugo_theme_robust.git
-</code></pre>
-
-<p>Тема успешно клонирована.<br />
-<img src="/images/2017/generation-site/clone-theme.png" width="650"><br />
+</code></pre><p>Тема успешно клонирована.<br>
+<img src="/images/2017/generation-site/clone-theme.png" alt="clone-theme">
 Большой выбор тем для сайта доступен в <a href="http://themes.gohugo.io">Каталоге тем для Hugo</a></p>
-
-<p>2.3) Настраиваем конфигурационный файл.<br />
+<p>2.3) Настраиваем конфигурационный файл.<br>
 В корне нашего сайта лежит конфигурационный файл <em>config.toml</em>.  По умолчанию файл конфигурации использует Формат <strong>TOML</strong>, но также можно использовать формат <strong>YAML</strong> или <strong>JSON</strong>. Параметры конфигурации, указанные в <em>config.toml</em> применяются к полной версии сайта.</p>
-
 <pre><code>name = &quot;Robust&quot;
 license = &quot;MIT&quot;
 licenselink = &quot;https://github.com/dim0627/hugo_theme_robust/blob/master/LICENSE.md&quot;
@@ -253,54 +241,50 @@ min_version = 0.20.2
 [author]
   name = &quot;Daisuke Tsuji&quot;
   homepage = &quot;https://yet.unresolved.xyz/&quot;
-</code></pre>
-
-<p>Добавим следующую информацию:</p>
-
+</code></pre><p>Добавим следующую информацию:</p>
 <pre><code>baseURL = &quot;http://наш-сайт.рф/&quot;
 languageCode = &quot;ru-RU&quot;
 title = &quot;The Best Site&quot;
 
 [Params]
   Author = &quot;Самый лучший писатель&quot;
-</code></pre>
-
-<p>2.4) Создаем статью.<br />
+</code></pre><p>2.4) Создаем статью.<br>
 Для того чтобы создать новую статью, напишем следующее:</p>
-
 <pre><code>hugo new post/good-to-great.md
-</code></pre>
-
-<p>В результате в каталоге <em>content</em> должен появиться файл в формате <strong>Markdown</strong>:</p>
-
+</code></pre><p>В результате в каталоге <em>content</em> должен появиться файл в формате <strong>Markdown</strong>:</p>
 <pre><code>content
 `-- post
     `-- good-to-great.md
-</code></pre>
-
-<p>В любом удобном редакторе начинаем писать статью.<br />
+</code></pre><p>В любом удобном редакторе начинаем писать статью.<br>
 Для проверки отображения сайта и публикуемой статьи запустим сервер:</p>
-
 <pre><code>hugo server --theme=hugo_theme_robust --buildDrafts
-</code></pre>
-
-<p>Чтобы просмотреть что получилось, переходим по адресу <a href="http://localhost:1313/">http://localhost:1313/</a>.</p>
-
-<p>2.5) Генерация статичного сайта для публикации.<br />
+</code></pre><p>Чтобы просмотреть что получилось, переходим по адресу http://localhost:1313/.</p>
+<p>2.5) Генерация статичного сайта для публикации.<br>
 Когда все написано и проверено необходимо сгенерировать сайт, для этого пишем:</p>
-
 <pre><code>hugo --theme=hugo_theme_robust
-</code></pre>
-
-<p>После выполнения команды в корне сайта будет создан каталог <em>public</em>, содержащий сгенерированный исходный сайт.</p>
-
-<p>3) Размешаем сайт.<br />
-Хостим полученный сайт, например на <a href="https://pages.github.com/">Github Pages</a>.</p>
+</code></pre><p>После выполнения команды в корне сайта будет создан каталог <em>public</em>, содержащий сгенерированный исходный сайт.</p>
+<ol start="3">
+<li>Размешаем сайт.<br>
+Хостим полученный сайт, например на <a href="https://pages.github.com/">Github Pages</a>.</li>
+</ol>
 
   </div>
   
 
-
+<div class="navigation navigation-single">
+    
+    <a href="/posts/as-we-were-preparing-the-march-8/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">Как мы готовили 8 марта</span>
+    </a>
+    
+    
+    <a href="/posts/cinema-spider-man-homecoming/" class="navigation-next">
+      <span class="navigation-tittle">Дружелюбный сосед</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
 
 
   
@@ -315,6 +299,7 @@ title = &quot;The Best Site&quot;
         </div>
         
     
+
   
   
 <script type="application/javascript">

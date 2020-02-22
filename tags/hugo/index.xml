@@ -1,34 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on βμ</title>
-    <link>http://iuadget.github.io/tags/hugo/</link>
-    <description>Recent content in Hugo on βμ</description>
+    <title>hugo on βμ</title>
+    <link>https://blog.udjat.me/tags/hugo/</link>
+    <description>Recent content in hugo on βμ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <lastBuildDate>Sun, 28 May 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://iuadget.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.udjat.me/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Генерация сайта на HUGO</title>
-      <link>http://iuadget.github.io/posts/generation-site-hugo/</link>
+      <link>https://blog.udjat.me/posts/generation-site-hugo/</link>
       <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://iuadget.github.io/posts/generation-site-hugo/</guid>
+      <guid>https://blog.udjat.me/posts/generation-site-hugo/</guid>
       <description>За прошедший год идей для статей было много, но ни одна из них не превратился в статью.
 За это время была переустановлена система и все исходники блога были удалены, осталось только сгенерированная статика.</description>
     </item>
     
     <item>
       <title>Перешел на HUGO</title>
-      <link>http://iuadget.github.io/posts/switched-to-hugo/</link>
+      <link>https://blog.udjat.me/posts/switched-to-hugo/</link>
       <pubDate>Sun, 06 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://iuadget.github.io/posts/switched-to-hugo/</guid>
+      <guid>https://blog.udjat.me/posts/switched-to-hugo/</guid>
       <description>Предыдущий сгенерированный блог на Jekyll не удовлетворил внутреннему голосу перфекциониста, поэтому я стал рассматривать другие генераторы статических сайтов. В поисках идеального генератора статических сайта (для себя) попробовал:
- Jekyll Результат здесь.</description>
+  Jekyll Результат здесь.</description>
     </item>
     
   </channel>

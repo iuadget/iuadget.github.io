@@ -1,165 +1,159 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://iuadget.github.io/posts/manually-update-oh-my-zsh/</loc>
+    <loc>https://blog.udjat.me/tags/oh-my-zsh/</loc>
     <lastmod>2019-02-23T10:19:03+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iuadget.github.io/posts/migrations-from-ios/</loc>
+    <loc>https://blog.udjat.me/posts/</loc>
+    <lastmod>2020-02-22T12:42:14+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.udjat.me/tags/</loc>
+    <lastmod>2020-02-22T12:42:14+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.udjat.me/posts/manually-update-oh-my-zsh/</loc>
+    <lastmod>2019-02-23T10:19:03+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.udjat.me/tags/android/</loc>
+    <lastmod>2020-02-22T12:42:14+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.udjat.me/posts/huawei-watch-gt/</loc>
+    <lastmod>2020-02-22T12:42:14+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.udjat.me/tags/watch/</loc>
+    <lastmod>2020-02-22T12:42:14+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.udjat.me/tags/ios/</loc>
     <lastmod>2019-01-07T12:42:14+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iuadget.github.io/about/</loc>
+    <loc>https://blog.udjat.me/posts/migrations-from-ios/</loc>
+    <lastmod>2019-01-07T12:42:14+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.udjat.me/</loc>
     <lastmod>2019-01-05T07:55:38+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iuadget.github.io/posts/create_ru-qa-resources/</loc>
+    <loc>https://blog.udjat.me/about/</loc>
+    <lastmod>2019-01-05T07:55:38+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.udjat.me/posts/create_ru-qa-resources/</loc>
     <lastmod>2018-02-11T15:57:37+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iuadget.github.io/posts/delete-commit-github/</loc>
+    <loc>https://blog.udjat.me/posts/delete-commit-github/</loc>
     <lastmod>2018-01-11T22:31:31+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iuadget.github.io/posts/mysql/</loc>
+    <loc>https://blog.udjat.me/tags/macos/</loc>
     <lastmod>2017-07-30T08:22:01+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iuadget.github.io/posts/ios11-beta-bugs/</loc>
+    <loc>https://blog.udjat.me/tags/mysql/</loc>
+    <lastmod>2017-07-30T08:22:01+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.udjat.me/posts/mysql/</loc>
+    <lastmod>2017-07-30T08:22:01+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.udjat.me/tags/ios11beta/</loc>
     <lastmod>2017-07-18T06:39:58+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iuadget.github.io/posts/course-shnat-1/</loc>
+    <loc>https://blog.udjat.me/posts/ios11-beta-bugs/</loc>
+    <lastmod>2017-07-18T06:39:58+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.udjat.me/tags/qa/</loc>
     <lastmod>2017-07-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iuadget.github.io/posts/cinema-spider-man-homecoming/</loc>
+    <loc>https://blog.udjat.me/posts/course-shnat-1/</loc>
+    <lastmod>2017-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.udjat.me/tags/cinema/</loc>
     <lastmod>2017-07-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iuadget.github.io/posts/generation-site-hugo/</loc>
+    <loc>https://blog.udjat.me/posts/cinema-spider-man-homecoming/</loc>
+    <lastmod>2017-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.udjat.me/tags/hugo/</loc>
     <lastmod>2017-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iuadget.github.io/posts/as-we-were-preparing-the-march-8/</loc>
+    <loc>https://blog.udjat.me/posts/generation-site-hugo/</loc>
+    <lastmod>2017-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.udjat.me/tags/%D0%B1%D0%BB%D0%BE%D0%B3/</loc>
+    <lastmod>2017-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.udjat.me/tags/8-%D0%BC%D0%B0%D1%80%D1%82%D0%B0/</loc>
     <lastmod>2016-03-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iuadget.github.io/posts/switched-to-hugo/</loc>
+    <loc>https://blog.udjat.me/posts/as-we-were-preparing-the-march-8/</loc>
+    <lastmod>2016-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.udjat.me/tags/jekyll/</loc>
     <lastmod>2016-03-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iuadget.github.io/posts/blog-creation/</loc>
+    <loc>https://blog.udjat.me/posts/switched-to-hugo/</loc>
+    <lastmod>2016-03-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.udjat.me/posts/blog-creation/</loc>
     <lastmod>2016-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iuadget.github.io/tags/8-%D0%BC%D0%B0%D1%80%D1%82%D0%B0/</loc>
-    <lastmod>2016-03-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://iuadget.github.io/tags/android/</loc>
-    <lastmod>2019-01-07T12:42:14+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://iuadget.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://iuadget.github.io/tags/cinema/</loc>
-    <lastmod>2017-07-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://iuadget.github.io/tags/hugo/</loc>
-    <lastmod>2017-05-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://iuadget.github.io/tags/ios/</loc>
-    <lastmod>2019-01-07T12:42:14+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://iuadget.github.io/tags/ios11beta/</loc>
-    <lastmod>2017-07-18T06:39:58+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://iuadget.github.io/tags/jekyll/</loc>
-    <lastmod>2016-03-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://iuadget.github.io/tags/macos/</loc>
-    <lastmod>2017-07-30T08:22:01+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://iuadget.github.io/tags/mysql/</loc>
-    <lastmod>2017-07-30T08:22:01+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://iuadget.github.io/tags/oh-my-zsh/</loc>
-    <lastmod>2019-02-23T10:19:03+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://iuadget.github.io/posts/</loc>
-    <lastmod>2019-02-23T10:19:03+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://iuadget.github.io/tags/qa/</loc>
-    <lastmod>2017-07-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://iuadget.github.io/tags/</loc>
-    <lastmod>2016-03-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://iuadget.github.io/</loc>
-    <lastmod>2019-02-23T10:19:03+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://iuadget.github.io/tags/%D0%B1%D0%BB%D0%BE%D0%B3/</loc>
-    <lastmod>2017-05-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://blog.udjat.me/categories/</loc>
   </url>
   
 </urlset>

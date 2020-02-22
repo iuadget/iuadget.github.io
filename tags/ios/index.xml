@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ios on βμ</title>
-    <link>http://iuadget.github.io/tags/ios/</link>
-    <description>Recent content in Ios on βμ</description>
+    <title>ios on βμ</title>
+    <link>https://blog.udjat.me/tags/ios/</link>
+    <description>Recent content in ios on βμ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <lastBuildDate>Sun, 06 Jan 2019 12:42:14 +0300</lastBuildDate>
     
-	<atom:link href="http://iuadget.github.io/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.udjat.me/tags/ios/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Переход с ios на android</title>
-      <link>http://iuadget.github.io/posts/migrations-from-ios/</link>
+      <link>https://blog.udjat.me/posts/migrations-from-ios/</link>
       <pubDate>Sun, 06 Jan 2019 12:42:14 +0300</pubDate>
       
-      <guid>http://iuadget.github.io/posts/migrations-from-ios/</guid>
+      <guid>https://blog.udjat.me/posts/migrations-from-ios/</guid>
       <description>Давно задумывался над сменой старого iPhone 6+ на новый смартфон, покупать новый iPhone можно, но при текущих ценах - зачем? Единственное, что останавливало от перехода на Android только наличие связки iPhone с Apple Watch.</description>
     </item>
     

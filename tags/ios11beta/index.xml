@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ios11beta on βμ</title>
-    <link>http://iuadget.github.io/tags/ios11beta/</link>
-    <description>Recent content in Ios11beta on βμ</description>
+    <title>iOS11beta on βμ</title>
+    <link>https://blog.udjat.me/tags/ios11beta/</link>
+    <description>Recent content in iOS11beta on βμ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <lastBuildDate>Tue, 18 Jul 2017 06:39:58 +0300</lastBuildDate>
     
-	<atom:link href="http://iuadget.github.io/tags/ios11beta/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.udjat.me/tags/ios11beta/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Баги  iOS11 beta</title>
-      <link>http://iuadget.github.io/posts/ios11-beta-bugs/</link>
+      <link>https://blog.udjat.me/posts/ios11-beta-bugs/</link>
       <pubDate>Tue, 18 Jul 2017 06:39:58 +0300</pubDate>
       
-      <guid>http://iuadget.github.io/posts/ios11-beta-bugs/</guid>
+      <guid>https://blog.udjat.me/posts/ios11-beta-bugs/</guid>
       <description>За два дня работы на iOS11 beta было найдено пару багов:
 1. Анимация при выполнения стандартных действий:       2. Невозможно переместить приложение из папки   3.</description>
     </item>

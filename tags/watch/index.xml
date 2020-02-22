@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>android on βμ</title>
-    <link>https://blog.udjat.me/tags/android/</link>
-    <description>Recent content in android on βμ</description>
+    <title>watch on βμ</title>
+    <link>https://blog.udjat.me/tags/watch/</link>
+    <description>Recent content in watch on βμ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <lastBuildDate>Sun, 27 Jan 2019 14:02:58 +0300</lastBuildDate>
     
-	<atom:link href="https://blog.udjat.me/tags/android/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.udjat.me/tags/watch/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,15 +20,6 @@
       <description>После переход на андроид пришла пора поменять и часы. После долго чтения форумов остановился на Huawei Watch GT.
 Плюсы:
  Покрывает весь мой UX, который мне нужен от часов Время жизни от одного заряда до 20 дней  Минусы:</description>
-    </item>
-    
-    <item>
-      <title>Переход с ios на android</title>
-      <link>https://blog.udjat.me/posts/migrations-from-ios/</link>
-      <pubDate>Sun, 06 Jan 2019 12:42:14 +0300</pubDate>
-      
-      <guid>https://blog.udjat.me/posts/migrations-from-ios/</guid>
-      <description>Давно задумывался над сменой старого iPhone 6+ на новый смартфон, покупать новый iPhone можно, но при текущих ценах - зачем? Единственное, что останавливало от перехода на Android только наличие связки iPhone с Apple Watch.</description>
     </item>
     
   </channel>
